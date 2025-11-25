@@ -1,5 +1,5 @@
 import subprocess
-import tiheme
+import time
 import os
 import sys
 
@@ -25,4 +25,5 @@ if __name__ == '__main__':
         Startup.run()
 
     except KeyboardInterrupt:
+
         sys.exit()
